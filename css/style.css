@@ -17,8 +17,7 @@ header{
     position: fixed;
     right: 0;
     left: 300px;
-    background-color: black;
-    opacity: 40%;
+    background-color: rgba(000, 000, 000, 0.5);
     height: 80px;
 }
 button{
@@ -27,9 +26,12 @@ button{
     top: 14.75px;
     padding: 15px 50px;
     color: white;
-    background-color: black;
     border: 2px solid white;
     border-radius: 25px;
+    background-color: transparent;
+}
+button:hover{
+    transform: scale(1.2);
 }
 /* sidebar */
 .sidebar{
@@ -41,7 +43,94 @@ button{
 aside{
     width: 300px;
     background-color: black;
+    color: #717171;
 }
+.logo{
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icon-logo{
+    display: none;
+}
+.spacings{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+#home{
+    font-size: 30px;
+}
+.text-home{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.menu-home{
+    align-items: center;
+}
+.menu-home:hover{
+    color: white;
+    border-left: 3px solid;
+    border-color: greenyellow;
+}
+#search{
+    font-size: 30px;
+}
+.text-search{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.menu-search{
+    align-items: center;
+}
+.menu-search:hover{
+    color: white;
+    border-left: 3px solid;
+    border-color: greenyellow;
+}
+#library{
+    font-size: 30px;
+}
+.text-library{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.menu-library{
+    align-items: center;
+}
+.menu-library:hover{
+    color: white;
+    border-left: 3px solid;
+    border-color: greenyellow;
+}
+.list-playlist{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.title-playlist{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.playlist{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+#icon-playlist{
+    font-size: 30px;
+    padding: 10px;
+    background-color: #a3a3a3;
+}
+.text-new-playlist{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.playlist:hover{
+    color: white;
+}
+
 /* main */
 main{
     width: calc(100% - 300px);
@@ -54,7 +143,6 @@ footer{
     display: flex;
     align-items: center;  
 }
-
 .tracks-img{
     width: 44px;
     height: 44px;
@@ -106,7 +194,7 @@ footer{
     width: 100%;
 }
 .play-status{
-    width: 85px;   
+    width: 20%;   
     height: 5px;
     background-color: white;
     border-radius: 5px;
@@ -146,7 +234,7 @@ footer{
     width: 100%;
 }
 .volume-status{
-    width: 30px;   
+    width: 25%;   
     height: 5px;
     background-color: white;
     border-radius: 5px;
