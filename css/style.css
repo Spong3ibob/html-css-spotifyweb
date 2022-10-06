@@ -20,17 +20,17 @@ footer{
     color: white;
     display: flex;
     align-items: center;  
-    padding: 0 10px;
-    justify-content: space-between;
 }
 
 .tracks-img{
     width: 44px;
     height: 44px;
+    margin-left: 25px;
 }
 .tracks{
     display: flex;
     align-items: center;
+    width: 25%;
 }
 .song-title{
     display: block;
@@ -45,6 +45,7 @@ footer{
 }
 .play{
     text-align: center;
+    width: 50%;
 }
 .player i{
     padding: 0 15px;
@@ -59,29 +60,76 @@ footer{
 .timeline{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 .play-line{
     height: 5px;
-    width: 430px;
+    max-width: 430px;
     background-color: #878787;
     border: none;
     border-radius: 5px;
     margin: 0 25px;
+    width: 100%;
+}
+.play-status{
+    width: 85px;   
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.play-shot{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 80px;
+    bottom: 2px;
+}
+.play-status:hover{
+    background-color: greenyellow;
+}
+.play-shot:hover{
+    background-color: white;
 }
 .volume{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: right;
+    width: 25%;
 }
 .volume i{
     padding: 0 10px;
 }
 .volume-line{
     height: 5px;
-    width: 115px;
+    max-width: 115px;
     background-color: #878787;
     border: none;
     border-radius: 5px;
     margin-right: 25px;
+    width: 100%;
+}
+.volume-status{
+    width: 30px;   
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.volume-shot{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+    bottom: 2px;
+}
+.volume-status:hover{
+    background-color: greenyellow;
+}
+.volume-shot:hover{
+    background-color: white;
 }
