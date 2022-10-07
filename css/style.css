@@ -137,6 +137,9 @@ aside{
 .my-playlist{
     padding-top: 20px;
 }
+.scrol{
+    position: fixed;
+}
 .my-playlist:hover{
     color: white;
 }
@@ -219,7 +222,10 @@ footer{
     background-color: #282828;
     color: white;
     display: flex;
-    align-items: center;  
+    align-items: center; 
+    position: fixed; 
+    right: 0;
+    left: 0;
 }
 .tracks-img{
     width: 44px;
