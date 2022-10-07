@@ -150,7 +150,6 @@ aside{
 }
 .login{
     padding-left: 20px;
-    position: absolute;
     bottom: 90px;
     margin-top: auto;
 }
@@ -221,6 +220,46 @@ hr{
 /* main */
 main{
     width: calc(100% - 300px);
+}
+.musical-genre{
+    padding-top: 110px;
+    text-align: center;
+}
+.nav{
+    padding: 5px 10px;
+    color: #7d7f84;
+}
+.nav:hover{
+    color: white;
+    border-bottom: 2px solid lightgreen;
+}
+.recently-played{
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.title-section{
+    color: white; 
+    padding-top: 45px;
+    padding-left: 20px;
+}
+.img-songs{
+    text-align: center;
+}
+img{
+    width: 180px;
+    height: 180px;
+}
+.title-song{
+    color: white;
+}
+.name-artist{
+    color: white;
+    font-size: 16px;
+}
+img:hover{
+    color: rgba(255, 255, 255, 0.3);
 }
 /* footer */
 footer{
